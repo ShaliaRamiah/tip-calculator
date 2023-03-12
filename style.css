@@ -1,0 +1,129 @@
+body {
+    font-family: Palatino;
+    background: #000000;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #container {
+    height: 520px;
+    width: 450px;
+    margin: 100px auto;
+    background: #B6A999;
+    border-radius: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 0px;
+    text-align: center
+  }
+  
+  h1 {
+    background: #4F4537;
+    color: #B6A999;
+    margin: 0;
+    padding: 20px 100px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  
+  form input[type="text"] {
+    width: 90px;
+  }
+  
+  input {
+    padding-left: 20px;
+  }
+  
+  #billPrice {
+    font-size: 14px;
+    background-color: #f7f7f7;
+    width: 40%;
+    padding: 5px 5px 7px 7px;
+    border-radius: 6px;
+  }
+  
+  #billPrice:focus {
+    background: white;
+    border: 3px solid #8ea7b8;
+    outline: none;
+  }
+  
+  #people {
+    width: 40%;
+    padding: 5px 5px 7px 7px;
+    background-color: #f7f7f7;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+  
+  #people:focus {
+    background: white;
+    border: 3px solid #8ea7b8;
+    outline: none;
+  }
+  
+  .randSign {
+    display: inline;
+  }
+  
+  #tipAmount {
+    padding: 5px 5px 7px 7px;
+    font-size: 14px;
+    align-items: center;
+    border-radius: 6px;
+  }
+  
+  #tipAmount:focus {
+    background: white;
+    border: 3px solid #8ea7b8;
+    outline: none;
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #2A1F09;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    font-family: Palatino
+  }
+  
+  button:hover {
+    background: #000000;
+    border-bottom-color: #111;
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  #finalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  
+  }
+  
+  #finalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  
+  }
+  
+  #finalTip sup {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Palatino
+  }
